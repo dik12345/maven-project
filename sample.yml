@@ -1,0 +1,13 @@
+---
+name: shell commands
+on:
+  - push
+jobs: null
+run-shell-commands: null
+run-on: ubuntu latest
+steps:
+  - name: string
+    run: echo "welcome"
+  - name: multiline script
+    run: node -v npm -v
+
